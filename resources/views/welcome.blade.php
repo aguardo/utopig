@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+<div class="col d-flex justify-content-center mt-5">
+    <button type="button" class="btn btn-info">Add a random game</button>
+</div>
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-2">
