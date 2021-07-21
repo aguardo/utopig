@@ -1,78 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Utopig Games
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Hola! Me presento, mi nombre es PIGGY y soy la CEO de Utopig Studio, como estas? Es un placer conocerte! Si has llegado hasta aquí quieres decir que a mi gran amigo y presi Willi le has caido genial y le gustaría incoporarte a nuestro equipo! Es todo un logro!
 
-## About Laravel
+Te voy a confesar una cosa, yo de todo esto de programación no tengo ni pajolera idea, yo lo que me dedico es ha hacer feliz a los miembros de mi equipo, es por eso que te voy a proponer un reto a ver si me puedes ayudar.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+La mayoria del equipo le gustan los videjuegos (yo no se que le ven a eso de sentarse en una silla y darle a botones pero bueno...) y me gustaría que podamos compartir los juegos que tiene cada uno de ellos. Pedí ayuda a Maria, Antonio, Llorenç y Willi para desarrollar esta herramienta, en su momento me la dieron pero se quedaron a medias :( y ahora siempre me dicen lo mismo, que tienen  mucha faena y no estan para tonterias :( Tú seguro que me puedes ayudar a que si? :D
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Objetivos
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Los objetivos a los cuales me gustaría llegar son los siguientes:
+ 
+- Listar los videjuegos en la pagina principal con su imagen, título y descripción.
+- Poder agregar videjuegos de forma random solo haciendo click en el botón 'Add a random game' y refrescar los datos por ajax sin refrescar la página.
+- Cada videojuego tiene un botón de view y otro de delete, me gustaría que apretando al botón view, te dirigiese a una nueva pagina y mostrase los datos completos de ese videjuego (el blade ya esta creado). Por otro lado, haciendo click en el botón delete, me gustaría que apareciera una confirmación de si estas seguro de borrar el juego y en caso afirmativo borrarlo de la base de datos.
+- En la pagina de detalles del videjuego verás que hay información que no existe en la base de datos, tendrás que añadirla para cada juego (puede ser inventada).
+- En la página de detalle, al hacer click en el boton back, debemos dirigirmos a la página principal.
 
-## Learning Laravel
+## Normas del reto
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Me encataría que el front se desarrollara con un framework de JS (Angular, Vue o React). Puedes usar los blades pero desde ellos tienes que llamar a los componentes de uno de estos frameworks.
+- Seria ideal que tardaras X horas para poder superar este reto. Esque soy muy impaciente.
+- Deberas clonarte el repo, trabajar en tu local y subirlo a tu github, gitlab... personal, indicandonos las instruciones para poder clonarlo en nuestro repo y disfrutar de tu obra maestra.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Requisitos
 
-## Laravel Sponsors
+- PHP 7.2 o superior
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Instrucciones de instalación
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+- Clonarte nuestro repo en tu pc.
+- Crearte una base de datos para el proyecto.
+- Crearte el archivo .env en la raíz del proyecto y rellenar los datos de tu base de datos par poder ejecutar las migraciones.
+- Ejecutar los siguientes comandos en la raíz del proyecto: 
+    - composer install
+    - php artisan migrate
+    - php artisan db:seed
+    - npm install
+    - npm run watch (npm run dev)
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
