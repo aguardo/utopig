@@ -1,9 +1,6 @@
 @extends('layout')
 
 @section('content')
-<div class="col d-flex justify-content-center mt-5">
-    <h1>WELCOME TO UTOPIG GAMES</h1>
-</div>
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-2">
