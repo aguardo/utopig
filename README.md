@@ -18,7 +18,7 @@ Los objetivos a los cuales me gustaría llegar son los siguientes:
 ## Normas del reto
 
 - No dediques más de 2 horas para superar este reto.
-- Haz un fork del repo y haznos un pull request con tu propuesta.
+- Clona el repo, trabaja en tu local, súbelo a tu github o gitlab personal y haznos llegar la url.
 
 ## Opcional
 
