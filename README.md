@@ -11,16 +11,19 @@ La mayoría del equipo le gustan los videjuegos (yo no se que le ven a eso de se
 Los objetivos a los cuales me gustaría llegar son los siguientes:
  
 - Listar los videjuegos en la página principal con su imagen, título y descripción.
-- Poder agregar videjuegos de forma random solo haciendo click en el botón 'Add a random game' y refrescar los datos por ajax sin refrescar la página.
-- Cada videojuego tiene un botón de view y otro de delete, me gustaría que apretando al botón view, te dirigiese a una nueva página y mostrase los datos completos de ese videjuego (el blade ya está creado). Por otro lado, haciendo click en el botón delete, me gustaría que apareciera una confirmación de si estás seguro de borrar el juego y en caso afirmativo borrarlo de la base de datos.
-- En la página de detalles del videjuego verás que hay información que no existe en la base de datos. Tendrás que añadirla para cada juego (puede ser inventada).
+- Cada videojuego tiene un botón de view y otro de delete, me gustaría que apretando al botón view, te dirigiese a una nueva página y mostrase los datos completos de ese juego (el blade ya está creado en game-detail.blade.php). Por otro lado, haciendo click en el botón delete, me gustaría que apareciera una confirmación de si estás seguro de borrar el juego y en caso afirmativo borrarlo de la base de datos y refrescar la lista.
+- En la página de detalles del videjuego verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva y mete la informacióin en el seed.
 - En la página de detalle, al hacer click en el botón back, debemos dirigirmos a la página principal.
 
 ## Normas del reto
 
-- Me encataría que el front se desarrollara con un framework de JS (Angular, Vue o React). Puedes usar los blades pero desde ellos tienes que llamar a los componentes de uno de estos frameworks.
-- Sería ideal que tardaras X horas para superar este reto. Esque soy muy impaciente...
-- Deberás clonarte el repo, trabajar en tu local y subirlo a tu github, gitlab... personal, indicándonos las instruciones para poder clonarlo en nuestro repo y disfrutar de tu obra maestra.
+- El listado lo puedes hacer con un framework de estos modernos de JS (Angular, Vue o React), pero si quieres hacerlo solo con blade y usar javascript vanilla o jquery para el ajax del delete, también puedes.
+- No me gustaría que dediques más de 2 horas para superar este reto. No me gusta hacer perder el tiempo a la gente, soy una cerdita buena.
+- Haz un fork del repo y haznos un pull request con tu propuesta.
+
+## Opcional
+
+- El listado lo puedes hacer con un framework de JS (Vue, React) y que al eliminar se actualice el listado de juegos sin tener que refrescar la página, pero hazlo solo si tienes tiempo y te apetece.
 
 ## Requisitos
 
