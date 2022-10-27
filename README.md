@@ -11,7 +11,7 @@ A la mayoría del equipo le gustan los videojuegos (yo no se que le ven a eso de
 Los objetivos a los cuales me gustaría llegar son los siguientes:
 
 - Listar los videjuegos de la tabla 'games' en la página principal con su imagen, título y los primeros 100 caracteres de la descripción.
-- Cada videojuego tiene un botón de view y otro de delete, me gustaría que apretando al botón view, te dirigiese a una nueva página y mostrase los datos completos de ese juego (el blade ya está creado en game-detail.blade.php). Por otro lado, haciendo click en el botón delete, me gustaría que apareciera una confirmación de si estás seguro de borrar el juego y en caso afirmativo borrarlo de la base de datos y refrescar la lista.
+- Apretando el botón view, te cargara los detalles del juego en la misma página,sin refrescar. Puedes usar la maquetación que hay en el blade game-detail.blade.php.
 - En la página de detalles del videojuego verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva que rellene los campos de juegos existentes con datos aleatorios.
 - En la página de detalle, al hacer click en el botón back, debemos dirigirmos a la página principal.
 
