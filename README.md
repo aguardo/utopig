@@ -4,7 +4,7 @@ Hola! Me presento, mi nombre es PIGGY y soy la CEO de Utopig Studio, ¿cómo est
 
 Te voy a confesar una cosa: yo de todo esto de programación no tengo ni pajolera idea, yo a lo que me dedico es a hacer feliz a mi equipo. Es por eso que te voy a proponer un reto a ver si me puedes ayudar.
 
-A la mayoría del equipo le gustan los videojuegos (yo no se que le ven a eso de sentarse en una silla y darle a botones pero bueno...) y me gustaría que podamos compartir los juegos que tiene cada uno de ellos. Pedí ayuda a Maria, Antonio, Llorenç y Willi para desarrollar esta herramienta, en su momento me la dieron pero se quedaron a medias :( y ahora siempre me dicen lo mismo, que tienen mucho trabajo y no están para tonterias :( Tú seguro que me puedes ayudar, ¿a que sí? :D
+A la mayoría del equipo le gustan los videojuegos (yo no se que le ven a eso de sentarse en una silla y darle a botones pero bueno...) y me gustaría que podamos compartir los juegos que tiene cada uno de ellos. Pedí ayuda a Maria, Antonio, Nuria, Llorenç y Willi para desarrollar esta herramienta, en su momento me la dieron pero se quedaron a medias :( y ahora siempre me dicen lo mismo, que tienen mucho trabajo y no están para tonterias :( Tú seguro que me puedes ayudar, ¿a que sí? :D
 
 ## Objetivos
 
@@ -19,10 +19,8 @@ Los objetivos a los cuales me gustaría llegar son los siguientes:
 
 - No dediques más de 2 horas para superar este reto.
 - Clona el repo, trabaja en tu local, súbelo a tu github o gitlab personal y haznos llegar la url.
-
-## Opcional
-
-- El listado lo puedes hacer con un componente JS (Vue, React...) y que al eliminar se actualice el listado de juegos sin tener que refrescar la página, pero hazlo solo si tienes tiempo y te apetece.
+- El Front lo debes desarrollar con el framework Vue.JS (v2.x o v3.x)
+- Al eliminar un juego se debe actualizar el listado de juegos sin tener que refrescar la página.
 
 ## Requisitos
 
