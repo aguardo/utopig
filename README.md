@@ -11,16 +11,16 @@ A la mayoría del equipo le gustan los videojuegos (yo no sé qué le ven a eso 
 Los objetivos son los siguientes:
 
 - Listar los videjuegos de la tabla 'games' en la página principal con su imagen, título y los primeros 100 caracteres de la descripción.
-- Apretando el botón view, te cargara los detalles del juego en la misma página,sin refrescar. Puedes usar la maquetación que hay en el blade game-detail.blade.php.
-- En la página de detalles del videojuego verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva que rellene los campos de juegos existentes con datos aleatorios.
-- En la página de detalle, al hacer click en el botón back, debemos dirigirmos a la página principal.
+- Apretando el botón view, cargar los detalles del juego en la misma página, sin refrescar. Puedes usar la maquetación que hay en la página de detalles, en el blade game-detail.blade.php.
+- En la página de detalles verás que hay información que aún no existe en la base de datos. Añade los campos con una migración nueva que además rellene los campos de juegos existentes con datos aleatorios.
+- En la página de detalle, al hacer click en el botón back, debemos volver al listado.
+- Al eliminar un juego se debe actualizar el listado de juegos sin tener que refrescar la página.
 
 ## Normas del reto
 
 - No dediques más de 2 horas para superar este reto, llega hasta donde te dé este tiempo.
 - Clona el repo, trabaja en tu local, súbelo a tu github o gitlab personal y haznos llegar la url.
 - El Front lo debes desarrollar con el framework Vue.JS (v2.x o v3.x)
-- Al eliminar un juego se debe actualizar el listado de juegos sin tener que refrescar la página.
 
 ## Requisitos
 
