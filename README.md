@@ -34,8 +34,8 @@ Es un Laravel 6 normal y corriente, pero por si acaso:
 - Crea una base de datos para el proyecto.
 - Crea el archivo .env en la raíz del proyecto y rellena los datos de tu base de datos para poder ejecutar las migraciones.
 - Ejecuta los siguientes comandos en la raíz del proyecto:
-    - php artisan key:generate
     - composer install
+    - php artisan key:generate
     - php artisan migrate --seed
     - npm install
     - npm run dev
