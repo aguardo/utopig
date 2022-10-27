@@ -13,3 +13,20 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
+
+mix.webpackConfig({
+    resolve: {
+        fallback: {
+            fs: false,
+            path: false,
+            "crypto": false,
+            "https": false,
+            "http": false,
+            "vm": false,
+            "os": false,
+            "stream": false,
+            "constants": false,
+            "zlib": false,
+        }
+    }
+});
