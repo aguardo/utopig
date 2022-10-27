@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+<div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-9 col-lg-8 col-xl-7">
             <div class="card mb-5">
@@ -36,4 +37,5 @@
             </div>
         </div>
     </div>
+</div>
 @stop
