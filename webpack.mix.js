@@ -11,22 +11,16 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.js('resources/js/app.js', 'public/js').vue()
     .sass('resources/sass/app.scss', 'public/css');
 
 mix.webpackConfig({
     resolve: {
         fallback: {
-            fs: false,
-            path: false,
-            "crypto": false,
-            "https": false,
-            "http": false,
-            "vm": false,
-            "os": false,
-            "stream": false,
-            "constants": false,
-            "zlib": false,
+            "http": require.resolve("stream-http"),
+            "https": require.resolve("https-browserify"),
+            "stream": require.resolve("stream-browserify"),
+            "zlib": require.resolve("browserify-zlib")
         }
     }
 });
