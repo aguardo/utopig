@@ -10,11 +10,20 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
-        <div class="col d-flex justify-content-center my-5">
-            <h1>utopigGames</h1>
-        </div>
+        <div id="app">
+            <div class="col d-flex justify-content-center my-5">
+                <h1>utopigGames</h1>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <game-list></game-list>
+                </div>
+            </div>
+       
 
-        @yield('content')
+
+
+         </div>
 
         <script src="{{ mix('js/app.js') }}"></script>
 

@@ -19,6 +19,8 @@ class CreateGamesTable extends Migration
             $table->mediumText('description');
             $table->string('platform');
             $table->string('image_url');
+            $table->date('release_date');
+            $table->float('price',4,2);
             $table->timestamps();
         });
     }
